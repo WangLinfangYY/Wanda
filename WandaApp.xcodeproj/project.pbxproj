@@ -56,6 +56,7 @@
 		530269CD1FB9CF3A0008C48C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		530269CF1FB9CF3A0008C48C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		530269D01FB9CF3A0008C48C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53464D3D1FBAC7DD00ECACEB /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		5681E08456150577DD38620F /* Pods-WandaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WandaApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-WandaApp/Pods-WandaApp.release.xcconfig"; sourceTree = "<group>"; };
 		68DF32D812B193452C918765 /* libPods-WandaApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WandaApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -114,7 +115,7 @@
 			children = (
 				530269D11FB9CF3A0008C48C /* Main */,
 				530269D81FB9CF4F0008C48C /* Expand */,
-				530269C51FB9CF3A0008C48C /* Resource(资源) */,
+				530269C51FB9CF3A0008C48C /* Resource */,
 				530269BD1FB9C8020008C48C /* Info.plist */,
 			);
 			path = WandaApp;
@@ -138,16 +139,17 @@
 			path = WandaAppUITests;
 			sourceTree = "<group>";
 		};
-		530269C51FB9CF3A0008C48C /* Resource(资源) */ = {
+		530269C51FB9CF3A0008C48C /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				53464D3C1FBAC79100ECACEB /* Global */,
 				530269C61FB9CF3A0008C48C /* AppDelegate */,
 				530269CB1FB9CF3A0008C48C /* Assets.xcassets */,
 				530269CC1FB9CF3A0008C48C /* LaunchScreen.storyboard */,
 				530269CE1FB9CF3A0008C48C /* Main.storyboard */,
 				530269D01FB9CF3A0008C48C /* main.m */,
 			);
-			path = "Resource(资源)";
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		530269C61FB9CF3A0008C48C /* AppDelegate */ = {
@@ -221,6 +223,14 @@
 			children = (
 			);
 			path = "Tool(工具)";
+			sourceTree = "<group>";
+		};
+		53464D3C1FBAC79100ECACEB /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				53464D3D1FBAC7DD00ECACEB /* PrefixHeader.pch */,
+			);
+			path = Global;
 			sourceTree = "<group>";
 		};
 		A0207CA5897D60325AE135FF /* Pods */ = {
@@ -596,6 +606,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WandaApp/Resource/Global/PrefixHeader.pch";
 				INFOPLIST_FILE = WandaApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wlf.WandaApp;
@@ -610,6 +622,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WandaApp/Resource/Global/PrefixHeader.pch";
 				INFOPLIST_FILE = WandaApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wlf.WandaApp;
