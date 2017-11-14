@@ -17,6 +17,18 @@
 		530269D51FB9CF3A0008C48C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 530269CC1FB9CF3A0008C48C /* LaunchScreen.storyboard */; };
 		530269D61FB9CF3A0008C48C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 530269CE1FB9CF3A0008C48C /* Main.storyboard */; };
 		530269D71FB9CF3A0008C48C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 530269D01FB9CF3A0008C48C /* main.m */; };
+		53464D411FBAD33D00ECACEB /* WDHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 53464D401FBAD33D00ECACEB /* WDHttpTool.m */; };
+		53464D451FBAD98100ECACEB /* NSString+SCCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 53464D431FBAD98100ECACEB /* NSString+SCCommon.m */; };
+		53464D4B1FBADB7700ECACEB /* UIAlertView+SCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 53464D491FBADB7700ECACEB /* UIAlertView+SCExtension.m */; };
+		53464D4E1FBADBFC00ECACEB /* SCMessageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 53464D4C1FBADBFC00ECACEB /* SCMessageHelper.m */; };
+		53464D511FBADEF300ECACEB /* ColumnModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 53464D501FBADEF200ECACEB /* ColumnModel.m */; };
+		53464D5A1FBADFC900ECACEB /* MessageToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53464D551FBADFC800ECACEB /* MessageToastView.m */; };
+		53464D5B1FBADFC900ECACEB /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 53464D591FBADFC800ECACEB /* UIView+Toast.m */; };
+		53464D641FBAE20900ECACEB /* XTUserMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 53464D5F1FBAE20900ECACEB /* XTUserMessageModel.m */; };
+		53464D651FBAE20900ECACEB /* XTUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 53464D611FBAE20900ECACEB /* XTUserModel.m */; };
+		53464D661FBAE20900ECACEB /* XTUserManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 53464D631FBAE20900ECACEB /* XTUserManger.m */; };
+		53464D691FBAE2E100ECACEB /* XTBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 53464D681FBAE2E100ECACEB /* XTBaseModel.m */; };
+		53464D6C1FBAE4E800ECACEB /* WDImageScaleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 53464D6A1FBAE4E800ECACEB /* WDImageScaleTool.m */; };
 		7C956FCBD779165630A872F5 /* libPods-WandaApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68DF32D812B193452C918765 /* libPods-WandaApp.a */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +69,34 @@
 		530269CF1FB9CF3A0008C48C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		530269D01FB9CF3A0008C48C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		53464D3D1FBAC7DD00ECACEB /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		53464D3E1FBACF8D00ECACEB /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		53464D3F1FBAD33D00ECACEB /* WDHttpTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDHttpTool.h; sourceTree = "<group>"; };
+		53464D401FBAD33D00ECACEB /* WDHttpTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDHttpTool.m; sourceTree = "<group>"; };
+		53464D421FBAD60500ECACEB /* HTTPConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTTPConfig.h; sourceTree = "<group>"; };
+		53464D431FBAD98100ECACEB /* NSString+SCCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SCCommon.m"; sourceTree = "<group>"; };
+		53464D441FBAD98100ECACEB /* NSString+SCCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SCCommon.h"; sourceTree = "<group>"; };
+		53464D491FBADB7700ECACEB /* UIAlertView+SCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+SCExtension.m"; sourceTree = "<group>"; };
+		53464D4A1FBADB7700ECACEB /* UIAlertView+SCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+SCExtension.h"; sourceTree = "<group>"; };
+		53464D4C1FBADBFC00ECACEB /* SCMessageHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCMessageHelper.m; sourceTree = "<group>"; };
+		53464D4D1FBADBFC00ECACEB /* SCMessageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCMessageHelper.h; sourceTree = "<group>"; };
+		53464D4F1FBADEF200ECACEB /* ColumnModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColumnModel.h; sourceTree = "<group>"; };
+		53464D501FBADEF200ECACEB /* ColumnModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColumnModel.m; sourceTree = "<group>"; };
+		53464D541FBADFC800ECACEB /* MessageToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageToastView.h; sourceTree = "<group>"; };
+		53464D551FBADFC800ECACEB /* MessageToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageToastView.m; sourceTree = "<group>"; };
+		53464D561FBADFC800ECACEB /* QHCommonMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHCommonMacro.h; sourceTree = "<group>"; };
+		53464D571FBADFC800ECACEB /* QHUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHUtil.h; sourceTree = "<group>"; };
+		53464D581FBADFC800ECACEB /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		53464D591FBADFC800ECACEB /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		53464D5E1FBAE20900ECACEB /* XTUserMessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTUserMessageModel.h; sourceTree = "<group>"; };
+		53464D5F1FBAE20900ECACEB /* XTUserMessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTUserMessageModel.m; sourceTree = "<group>"; };
+		53464D601FBAE20900ECACEB /* XTUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTUserModel.h; sourceTree = "<group>"; };
+		53464D611FBAE20900ECACEB /* XTUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTUserModel.m; sourceTree = "<group>"; };
+		53464D621FBAE20900ECACEB /* XTUserManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTUserManger.h; sourceTree = "<group>"; };
+		53464D631FBAE20900ECACEB /* XTUserManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTUserManger.m; sourceTree = "<group>"; };
+		53464D671FBAE2E100ECACEB /* XTBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTBaseModel.h; sourceTree = "<group>"; };
+		53464D681FBAE2E100ECACEB /* XTBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTBaseModel.m; sourceTree = "<group>"; };
+		53464D6A1FBAE4E800ECACEB /* WDImageScaleTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDImageScaleTool.m; sourceTree = "<group>"; };
+		53464D6B1FBAE4E800ECACEB /* WDImageScaleTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDImageScaleTool.h; sourceTree = "<group>"; };
 		5681E08456150577DD38620F /* Pods-WandaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WandaApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-WandaApp/Pods-WandaApp.release.xcconfig"; sourceTree = "<group>"; };
 		68DF32D812B193452C918765 /* libPods-WandaApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WandaApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -173,6 +213,7 @@
 		530269D81FB9CF4F0008C48C /* Expand */ = {
 			isa = PBXGroup;
 			children = (
+				53464D521FBADFC800ECACEB /* Third(第三方) */,
 				530269D91FB9CF4F0008C48C /* Category(分类) */,
 				530269DA1FB9CF4F0008C48C /* Const(常量) */,
 				530269DB1FB9CF4F0008C48C /* Controls(自定义控件) */,
@@ -186,6 +227,10 @@
 		530269D91FB9CF4F0008C48C /* Category(分类) */ = {
 			isa = PBXGroup;
 			children = (
+				53464D441FBAD98100ECACEB /* NSString+SCCommon.h */,
+				53464D431FBAD98100ECACEB /* NSString+SCCommon.m */,
+				53464D4A1FBADB7700ECACEB /* UIAlertView+SCExtension.h */,
+				53464D491FBADB7700ECACEB /* UIAlertView+SCExtension.m */,
 			);
 			path = "Category(分类)";
 			sourceTree = "<group>";
@@ -207,6 +252,7 @@
 		530269DC1FB9CF4F0008C48C /* Macros(宏) */ = {
 			isa = PBXGroup;
 			children = (
+				53464D3E1FBACF8D00ECACEB /* Macros.h */,
 			);
 			path = "Macros(宏)";
 			sourceTree = "<group>";
@@ -214,6 +260,11 @@
 		530269DD1FB9CF4F0008C48C /* Network(网络) */ = {
 			isa = PBXGroup;
 			children = (
+				53464D3F1FBAD33D00ECACEB /* WDHttpTool.h */,
+				53464D401FBAD33D00ECACEB /* WDHttpTool.m */,
+				53464D4F1FBADEF200ECACEB /* ColumnModel.h */,
+				53464D501FBADEF200ECACEB /* ColumnModel.m */,
+				53464D421FBAD60500ECACEB /* HTTPConfig.h */,
 			);
 			path = "Network(网络)";
 			sourceTree = "<group>";
@@ -221,6 +272,11 @@
 		530269DE1FB9CF4F0008C48C /* Tool(工具) */ = {
 			isa = PBXGroup;
 			children = (
+				53464D5C1FBAE20900ECACEB /* UserManger */,
+				53464D6B1FBAE4E800ECACEB /* WDImageScaleTool.h */,
+				53464D6A1FBAE4E800ECACEB /* WDImageScaleTool.m */,
+				53464D4D1FBADBFC00ECACEB /* SCMessageHelper.h */,
+				53464D4C1FBADBFC00ECACEB /* SCMessageHelper.m */,
 			);
 			path = "Tool(工具)";
 			sourceTree = "<group>";
@@ -231,6 +287,50 @@
 				53464D3D1FBAC7DD00ECACEB /* PrefixHeader.pch */,
 			);
 			path = Global;
+			sourceTree = "<group>";
+		};
+		53464D521FBADFC800ECACEB /* Third(第三方) */ = {
+			isa = PBXGroup;
+			children = (
+				53464D531FBADFC800ECACEB /* ToastView */,
+			);
+			path = "Third(第三方)";
+			sourceTree = "<group>";
+		};
+		53464D531FBADFC800ECACEB /* ToastView */ = {
+			isa = PBXGroup;
+			children = (
+				53464D541FBADFC800ECACEB /* MessageToastView.h */,
+				53464D551FBADFC800ECACEB /* MessageToastView.m */,
+				53464D561FBADFC800ECACEB /* QHCommonMacro.h */,
+				53464D571FBADFC800ECACEB /* QHUtil.h */,
+				53464D581FBADFC800ECACEB /* UIView+Toast.h */,
+				53464D591FBADFC800ECACEB /* UIView+Toast.m */,
+			);
+			path = ToastView;
+			sourceTree = "<group>";
+		};
+		53464D5C1FBAE20900ECACEB /* UserManger */ = {
+			isa = PBXGroup;
+			children = (
+				53464D5D1FBAE20900ECACEB /* Model */,
+				53464D621FBAE20900ECACEB /* XTUserManger.h */,
+				53464D631FBAE20900ECACEB /* XTUserManger.m */,
+			);
+			path = UserManger;
+			sourceTree = "<group>";
+		};
+		53464D5D1FBAE20900ECACEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				53464D671FBAE2E100ECACEB /* XTBaseModel.h */,
+				53464D681FBAE2E100ECACEB /* XTBaseModel.m */,
+				53464D5E1FBAE20900ECACEB /* XTUserMessageModel.h */,
+				53464D5F1FBAE20900ECACEB /* XTUserMessageModel.m */,
+				53464D601FBAE20900ECACEB /* XTUserModel.h */,
+				53464D611FBAE20900ECACEB /* XTUserModel.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		A0207CA5897D60325AE135FF /* Pods */ = {
@@ -408,9 +508,13 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WandaApp/Pods-WandaApp-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -439,9 +543,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53464D641FBAE20900ECACEB /* XTUserMessageModel.m in Sources */,
+				53464D661FBAE20900ECACEB /* XTUserManger.m in Sources */,
+				53464D4B1FBADB7700ECACEB /* UIAlertView+SCExtension.m in Sources */,
+				53464D411FBAD33D00ECACEB /* WDHttpTool.m in Sources */,
+				53464D691FBAE2E100ECACEB /* XTBaseModel.m in Sources */,
+				53464D4E1FBADBFC00ECACEB /* SCMessageHelper.m in Sources */,
+				53464D451FBAD98100ECACEB /* NSString+SCCommon.m in Sources */,
 				530269D21FB9CF3A0008C48C /* AppDelegate.m in Sources */,
 				530269D71FB9CF3A0008C48C /* main.m in Sources */,
 				530269D31FB9CF3A0008C48C /* ViewController.m in Sources */,
+				53464D651FBAE20900ECACEB /* XTUserModel.m in Sources */,
+				53464D511FBADEF300ECACEB /* ColumnModel.m in Sources */,
+				53464D5B1FBADFC900ECACEB /* UIView+Toast.m in Sources */,
+				53464D6C1FBAE4E800ECACEB /* WDImageScaleTool.m in Sources */,
+				53464D5A1FBADFC900ECACEB /* MessageToastView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
