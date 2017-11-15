@@ -29,6 +29,11 @@
 		53464D661FBAE20900ECACEB /* XTUserManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 53464D631FBAE20900ECACEB /* XTUserManger.m */; };
 		53464D691FBAE2E100ECACEB /* XTBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 53464D681FBAE2E100ECACEB /* XTBaseModel.m */; };
 		53464D6C1FBAE4E800ECACEB /* WDImageScaleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 53464D6A1FBAE4E800ECACEB /* WDImageScaleTool.m */; };
+		5375E8E71FBBE35600AA1D79 /* DrawSignView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5375E8E21FBBE35600AA1D79 /* DrawSignView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5375E8E81FBBE35600AA1D79 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5375E8E41FBBE35600AA1D79 /* MyView.m */; };
+		5375E8E91FBBE35600AA1D79 /* PopSignUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5375E8E61FBBE35600AA1D79 /* PopSignUtil.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5375E8ED1FBC1DD600AA1D79 /* PJRSignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5375E8EC1FBC1DD600AA1D79 /* PJRSignatureView.m */; };
+		5375E8F01FBC1EE700AA1D79 /* WLFSignatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5375E8EF1FBC1EE700AA1D79 /* WLFSignatureViewController.m */; };
 		7C956FCBD779165630A872F5 /* libPods-WandaApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68DF32D812B193452C918765 /* libPods-WandaApp.a */; };
 /* End PBXBuildFile section */
 
@@ -97,6 +102,16 @@
 		53464D681FBAE2E100ECACEB /* XTBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTBaseModel.m; sourceTree = "<group>"; };
 		53464D6A1FBAE4E800ECACEB /* WDImageScaleTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDImageScaleTool.m; sourceTree = "<group>"; };
 		53464D6B1FBAE4E800ECACEB /* WDImageScaleTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDImageScaleTool.h; sourceTree = "<group>"; };
+		5375E8E11FBBE35600AA1D79 /* DrawSignView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawSignView.h; sourceTree = "<group>"; };
+		5375E8E21FBBE35600AA1D79 /* DrawSignView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawSignView.m; sourceTree = "<group>"; };
+		5375E8E31FBBE35600AA1D79 /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		5375E8E41FBBE35600AA1D79 /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+		5375E8E51FBBE35600AA1D79 /* PopSignUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopSignUtil.h; sourceTree = "<group>"; };
+		5375E8E61FBBE35600AA1D79 /* PopSignUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopSignUtil.m; sourceTree = "<group>"; };
+		5375E8EB1FBC1DD600AA1D79 /* PJRSignatureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJRSignatureView.h; sourceTree = "<group>"; };
+		5375E8EC1FBC1DD600AA1D79 /* PJRSignatureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJRSignatureView.m; sourceTree = "<group>"; };
+		5375E8EE1FBC1EE700AA1D79 /* WLFSignatureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLFSignatureViewController.h; sourceTree = "<group>"; };
+		5375E8EF1FBC1EE700AA1D79 /* WLFSignatureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLFSignatureViewController.m; sourceTree = "<group>"; };
 		5681E08456150577DD38620F /* Pods-WandaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WandaApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-WandaApp/Pods-WandaApp.release.xcconfig"; sourceTree = "<group>"; };
 		68DF32D812B193452C918765 /* libPods-WandaApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WandaApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -245,6 +260,8 @@
 		530269DB1FB9CF4F0008C48C /* Controls(自定义控件) */ = {
 			isa = PBXGroup;
 			children = (
+				5375E8EA1FBC1DD600AA1D79 /* PJRSignatureView */,
+				5375E8E01FBBE35600AA1D79 /* SignName */,
 			);
 			path = "Controls(自定义控件)";
 			sourceTree = "<group>";
@@ -331,6 +348,30 @@
 				53464D611FBAE20900ECACEB /* XTUserModel.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		5375E8E01FBBE35600AA1D79 /* SignName */ = {
+			isa = PBXGroup;
+			children = (
+				5375E8E11FBBE35600AA1D79 /* DrawSignView.h */,
+				5375E8E21FBBE35600AA1D79 /* DrawSignView.m */,
+				5375E8E31FBBE35600AA1D79 /* MyView.h */,
+				5375E8E41FBBE35600AA1D79 /* MyView.m */,
+				5375E8E51FBBE35600AA1D79 /* PopSignUtil.h */,
+				5375E8E61FBBE35600AA1D79 /* PopSignUtil.m */,
+			);
+			path = SignName;
+			sourceTree = "<group>";
+		};
+		5375E8EA1FBC1DD600AA1D79 /* PJRSignatureView */ = {
+			isa = PBXGroup;
+			children = (
+				5375E8EB1FBC1DD600AA1D79 /* PJRSignatureView.h */,
+				5375E8EC1FBC1DD600AA1D79 /* PJRSignatureView.m */,
+				5375E8EE1FBC1EE700AA1D79 /* WLFSignatureViewController.h */,
+				5375E8EF1FBC1EE700AA1D79 /* WLFSignatureViewController.m */,
+			);
+			path = PJRSignatureView;
 			sourceTree = "<group>";
 		};
 		A0207CA5897D60325AE135FF /* Pods */ = {
@@ -544,13 +585,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				53464D641FBAE20900ECACEB /* XTUserMessageModel.m in Sources */,
+				5375E8F01FBC1EE700AA1D79 /* WLFSignatureViewController.m in Sources */,
 				53464D661FBAE20900ECACEB /* XTUserManger.m in Sources */,
 				53464D4B1FBADB7700ECACEB /* UIAlertView+SCExtension.m in Sources */,
+				5375E8E71FBBE35600AA1D79 /* DrawSignView.m in Sources */,
 				53464D411FBAD33D00ECACEB /* WDHttpTool.m in Sources */,
 				53464D691FBAE2E100ECACEB /* XTBaseModel.m in Sources */,
+				5375E8E91FBBE35600AA1D79 /* PopSignUtil.m in Sources */,
 				53464D4E1FBADBFC00ECACEB /* SCMessageHelper.m in Sources */,
+				5375E8E81FBBE35600AA1D79 /* MyView.m in Sources */,
 				53464D451FBAD98100ECACEB /* NSString+SCCommon.m in Sources */,
 				530269D21FB9CF3A0008C48C /* AppDelegate.m in Sources */,
+				5375E8ED1FBC1DD600AA1D79 /* PJRSignatureView.m in Sources */,
 				530269D71FB9CF3A0008C48C /* main.m in Sources */,
 				530269D31FB9CF3A0008C48C /* ViewController.m in Sources */,
 				53464D651FBAE20900ECACEB /* XTUserModel.m in Sources */,
@@ -660,7 +706,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -709,7 +755,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -722,6 +768,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E97F5TY77C;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/WandaApp/Resource/Global/PrefixHeader.pch";
 				INFOPLIST_FILE = WandaApp/Info.plist;
@@ -738,6 +785,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E97F5TY77C;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/WandaApp/Resource/Global/PrefixHeader.pch";
 				INFOPLIST_FILE = WandaApp/Info.plist;
