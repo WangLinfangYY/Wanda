@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "WDHomeController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    WDHomeController *homeVC = [[WDHomeController alloc]init];
+    WDNaviagtionController *nav = [[WDNaviagtionController alloc]initWithRootViewController:homeVC];
+    self.window.rootViewController = nav;
     return YES;
 }
 

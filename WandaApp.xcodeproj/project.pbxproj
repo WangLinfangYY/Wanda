@@ -34,6 +34,12 @@
 		5375E8E91FBBE35600AA1D79 /* PopSignUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5375E8E61FBBE35600AA1D79 /* PopSignUtil.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		5375E8ED1FBC1DD600AA1D79 /* PJRSignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5375E8EC1FBC1DD600AA1D79 /* PJRSignatureView.m */; };
 		5375E8F01FBC1EE700AA1D79 /* WLFSignatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5375E8EF1FBC1EE700AA1D79 /* WLFSignatureViewController.m */; };
+		5375E9081FBE90E500AA1D79 /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5375E9071FBE90E500AA1D79 /* BaseController.m */; };
+		5375E90B1FBE910C00AA1D79 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5375E90A1FBE910C00AA1D79 /* BaseModel.m */; };
+		5375E90E1FBE911F00AA1D79 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5375E90D1FBE911F00AA1D79 /* BaseView.m */; };
+		5375E9131FBE91CC00AA1D79 /* WDNaviagtionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5375E9121FBE91CC00AA1D79 /* WDNaviagtionController.m */; };
+		5375E9171FBE91FC00AA1D79 /* WDHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5375E9151FBE91FC00AA1D79 /* WDHomeController.m */; };
+		5375E9181FBE91FC00AA1D79 /* WDHomeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5375E9161FBE91FC00AA1D79 /* WDHomeController.xib */; };
 		7C956FCBD779165630A872F5 /* libPods-WandaApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68DF32D812B193452C918765 /* libPods-WandaApp.a */; };
 /* End PBXBuildFile section */
 
@@ -112,6 +118,17 @@
 		5375E8EC1FBC1DD600AA1D79 /* PJRSignatureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJRSignatureView.m; sourceTree = "<group>"; };
 		5375E8EE1FBC1EE700AA1D79 /* WLFSignatureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLFSignatureViewController.h; sourceTree = "<group>"; };
 		5375E8EF1FBC1EE700AA1D79 /* WLFSignatureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLFSignatureViewController.m; sourceTree = "<group>"; };
+		5375E9061FBE90E500AA1D79 /* BaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseController.h; sourceTree = "<group>"; };
+		5375E9071FBE90E500AA1D79 /* BaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseController.m; sourceTree = "<group>"; };
+		5375E9091FBE910C00AA1D79 /* BaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		5375E90A1FBE910C00AA1D79 /* BaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		5375E90C1FBE911F00AA1D79 /* BaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		5375E90D1FBE911F00AA1D79 /* BaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
+		5375E9111FBE91CC00AA1D79 /* WDNaviagtionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDNaviagtionController.h; sourceTree = "<group>"; };
+		5375E9121FBE91CC00AA1D79 /* WDNaviagtionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDNaviagtionController.m; sourceTree = "<group>"; };
+		5375E9141FBE91FC00AA1D79 /* WDHomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDHomeController.h; sourceTree = "<group>"; };
+		5375E9151FBE91FC00AA1D79 /* WDHomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDHomeController.m; sourceTree = "<group>"; };
+		5375E9161FBE91FC00AA1D79 /* WDHomeController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WDHomeController.xib; sourceTree = "<group>"; };
 		5681E08456150577DD38620F /* Pods-WandaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WandaApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-WandaApp/Pods-WandaApp.release.xcconfig"; sourceTree = "<group>"; };
 		68DF32D812B193452C918765 /* libPods-WandaApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WandaApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -168,6 +185,7 @@
 		530269721FB98C9B0008C48C /* WandaApp */ = {
 			isa = PBXGroup;
 			children = (
+				5375E9021FBE90C400AA1D79 /* Base */,
 				530269D11FB9CF3A0008C48C /* Main */,
 				530269D81FB9CF4F0008C48C /* Expand */,
 				530269C51FB9CF3A0008C48C /* Resource */,
@@ -221,6 +239,9 @@
 		530269D11FB9CF3A0008C48C /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				5375E9141FBE91FC00AA1D79 /* WDHomeController.h */,
+				5375E9151FBE91FC00AA1D79 /* WDHomeController.m */,
+				5375E9161FBE91FC00AA1D79 /* WDHomeController.xib */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -374,6 +395,61 @@
 			path = PJRSignatureView;
 			sourceTree = "<group>";
 		};
+		5375E9021FBE90C400AA1D79 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				5375E9101FBE91A200AA1D79 /* BaseNavigationController */,
+				5375E90F1FBE91A200AA1D79 /* BaseTabbarController */,
+				5375E9031FBE90C400AA1D79 /* BaseController */,
+				5375E9041FBE90C400AA1D79 /* BaseModel */,
+				5375E9051FBE90C400AA1D79 /* BaseView */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		5375E9031FBE90C400AA1D79 /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				5375E9061FBE90E500AA1D79 /* BaseController.h */,
+				5375E9071FBE90E500AA1D79 /* BaseController.m */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		5375E9041FBE90C400AA1D79 /* BaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				5375E9091FBE910C00AA1D79 /* BaseModel.h */,
+				5375E90A1FBE910C00AA1D79 /* BaseModel.m */,
+			);
+			path = BaseModel;
+			sourceTree = "<group>";
+		};
+		5375E9051FBE90C400AA1D79 /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				5375E90C1FBE911F00AA1D79 /* BaseView.h */,
+				5375E90D1FBE911F00AA1D79 /* BaseView.m */,
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		5375E90F1FBE91A200AA1D79 /* BaseTabbarController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseTabbarController;
+			sourceTree = "<group>";
+		};
+		5375E9101FBE91A200AA1D79 /* BaseNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				5375E9111FBE91CC00AA1D79 /* WDNaviagtionController.h */,
+				5375E9121FBE91CC00AA1D79 /* WDNaviagtionController.m */,
+			);
+			path = BaseNavigationController;
+			sourceTree = "<group>";
+		};
 		A0207CA5897D60325AE135FF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -505,6 +581,7 @@
 				530269BE1FB9C8020008C48C /* Info.plist in Resources */,
 				530269D51FB9CF3A0008C48C /* LaunchScreen.storyboard in Resources */,
 				530269D41FB9CF3A0008C48C /* Assets.xcassets in Resources */,
+				5375E9181FBE91FC00AA1D79 /* WDHomeController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -584,7 +661,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5375E9171FBE91FC00AA1D79 /* WDHomeController.m in Sources */,
 				53464D641FBAE20900ECACEB /* XTUserMessageModel.m in Sources */,
+				5375E9081FBE90E500AA1D79 /* BaseController.m in Sources */,
+				5375E90E1FBE911F00AA1D79 /* BaseView.m in Sources */,
 				5375E8F01FBC1EE700AA1D79 /* WLFSignatureViewController.m in Sources */,
 				53464D661FBAE20900ECACEB /* XTUserManger.m in Sources */,
 				53464D4B1FBADB7700ECACEB /* UIAlertView+SCExtension.m in Sources */,
@@ -592,11 +672,13 @@
 				53464D411FBAD33D00ECACEB /* WDHttpTool.m in Sources */,
 				53464D691FBAE2E100ECACEB /* XTBaseModel.m in Sources */,
 				5375E8E91FBBE35600AA1D79 /* PopSignUtil.m in Sources */,
+				5375E9131FBE91CC00AA1D79 /* WDNaviagtionController.m in Sources */,
 				53464D4E1FBADBFC00ECACEB /* SCMessageHelper.m in Sources */,
 				5375E8E81FBBE35600AA1D79 /* MyView.m in Sources */,
 				53464D451FBAD98100ECACEB /* NSString+SCCommon.m in Sources */,
 				530269D21FB9CF3A0008C48C /* AppDelegate.m in Sources */,
 				5375E8ED1FBC1DD600AA1D79 /* PJRSignatureView.m in Sources */,
+				5375E90B1FBE910C00AA1D79 /* BaseModel.m in Sources */,
 				530269D71FB9CF3A0008C48C /* main.m in Sources */,
 				530269D31FB9CF3A0008C48C /* ViewController.m in Sources */,
 				53464D651FBAE20900ECACEB /* XTUserModel.m in Sources */,

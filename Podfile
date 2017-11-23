@@ -9,6 +9,7 @@ target “WandaApp" do
     pod 'MJRefresh'
     pod 'MJExtension'
     pod 'Masonry', '~>1.0.1'
+    pod 'ReactiveCocoa'
 
 end 
 
